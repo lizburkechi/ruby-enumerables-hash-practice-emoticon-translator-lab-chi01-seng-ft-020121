@@ -14,7 +14,8 @@ final_hash
 end
 
 def get_english_meaning(path,emoticon)
-  # code goes here
+  YAML.load_file(path)
+
 end
 
 
