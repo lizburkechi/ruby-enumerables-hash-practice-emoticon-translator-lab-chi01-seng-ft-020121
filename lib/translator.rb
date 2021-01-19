@@ -28,5 +28,6 @@ def get_japanese_emoticon(path, emoticon)
     if value[:english] == emoticon
       return key
 binding.pry
+end
   end
 end
