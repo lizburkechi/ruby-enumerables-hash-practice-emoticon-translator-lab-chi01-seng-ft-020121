@@ -19,7 +19,6 @@ def get_english_meaning(path, emoticon)
       return key
     end
   end
-  binding.pry
 end
 
 
